@@ -1,26 +1,74 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f4f7f4;
-    color: #333;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-header {
-    background: #2e7d32;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
+body{
+font-family:Arial,sans-serif;
+background:#eef5ef;
+color:#333;
+line-height:1.6;
 }
 
-section {
-    max-width: 900px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.hero{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:80px 20px;
 }
 
-h2 {
-    color: #2e7d32;
+.hero h1{
+font-size:3rem;
+}
+
+.hero p{
+margin:15px 0;
+font-size:1.2rem;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:white;
+color:#1b5e20;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+max-width:1000px;
+margin:40px auto;
+padding:20px;
+}
+
+h2{
+margin-bottom:20px;
+color:#1b5e20;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:10px 0;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+.project{
+background:white;
+padding:20px;
+border-left:6px solid #1b5e20;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
